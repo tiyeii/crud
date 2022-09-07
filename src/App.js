@@ -19,8 +19,7 @@ function App() {
       name: task
     }
 
-    setTask([...tasks, newTask])
-    
+    setTasks([...tasks, newTask])
     setTask("")
     
   }
